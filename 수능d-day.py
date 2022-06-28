@@ -78,8 +78,10 @@ class suneung(QWidget):
         self.setWindowTitle('인서울 드가자~')
         self.setGeometry(300, 300, 300, 200)
         self.show()
-
+ 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = suneung()
     sys.exit(app.exec_())
+
+#hello world!
