@@ -69,7 +69,7 @@ class suneung(QWidget):
         layout = QVBoxLayout()
         layout.addWidget(daylabel)
         layout.addWidget(hour)
-
+ 
 
 
         self.setLayout(layout)
