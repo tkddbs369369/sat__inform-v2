@@ -14,7 +14,7 @@ def Count(a):
         return a[:1]
 
 
-
+ 
 
 html2 = requests.get('https://search.naver.com/search.naver?sm=tab_sug.top&where=nexearch&query=2022+%EC%88%98%EB%8A%A5+%EB%94%94%EB%8D%B0%EC%9D%B4')
 soup2 = BeautifulSoup(html2.text, 'html.parser')
